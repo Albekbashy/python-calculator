@@ -3,9 +3,7 @@ def add(*args):
     return sum(args)
 
 def subtract(*args):
-    """Subtract all following numbers from the first one."""
-    if not args:
-        return 0
+    print("Running improved subtract function")
     result = args[0]
     for num in args[1:]:
         result -= num
